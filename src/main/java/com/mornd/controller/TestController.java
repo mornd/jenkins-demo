@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-    private final String VERSION = "v1.0";
+    private final String VERSION = "v1.1";
 
     @GetMapping("/version")
     public Object version() {
